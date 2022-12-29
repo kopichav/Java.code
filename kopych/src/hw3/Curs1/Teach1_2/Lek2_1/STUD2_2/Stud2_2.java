@@ -1,10 +1,10 @@
-package Curs1.Teach1_1.Lek1_1;
+package hw3.Curs1.Teach1_2.Lek2_1.STUD2_2;
 
-public class teach1_1 {
+public class Stud2_2 {
     public int id;
     public static int counter = 1;
 
-    private teach1_1(int id) {
+    private Stud2_2(int id) {
         this.id = id;
         counter++;
     }

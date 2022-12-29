@@ -1,11 +1,13 @@
-import Curs1.Teach1_1.Lek1_1.STUD1_1.Stud1_1;
-import Curs1.Teach1_1.Lek1_1.STUD1_1.adhw1_1;
-import Curs1.Teach1_1.Lek1_1.STUD1_1.hw1_1;
-import Curs1.Teach1_1.Lek1_1.STUD1_2.Stud1_2;
-import Curs1.Teach1_1.Lek1_1.STUD1_2.adhw1_2;
-import Curs1.Teach1_1.Lek1_1.STUD1_2.hw1_2;
-import Curs1.Teach1_1.Lek1_1.teach1_1;
-import Curs1.Teach1_2.Lek2_1.teach1_2;
+package hw3.Curs1;
+
+import hw3.Curs1.Teach1_1.Lek1_1.STUD1_1.Stud1_1;
+import hw3.Curs1.Teach1_1.Lek1_1.STUD1_1.adhw1_1;
+import hw3.Curs1.Teach1_1.Lek1_1.STUD1_1.hw1_1;
+import hw3.Curs1.Teach1_1.Lek1_1.STUD1_2.Stud1_2;
+import hw3.Curs1.Teach1_1.Lek1_1.STUD1_2.adhw1_2;
+import hw3.Curs1.Teach1_1.Lek1_1.STUD1_2.hw1_2;
+import hw3.Curs1.Teach1_1.Lek1_1.teach1_1;
+import hw3.Curs1.Teach1_2.Lek2_1.teach1_2;
 
 public class Main {
      public static void main(String[] args) {

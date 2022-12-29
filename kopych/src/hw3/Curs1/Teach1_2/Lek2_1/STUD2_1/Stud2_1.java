@@ -1,4 +1,4 @@
-package Curs1.Teach1_2.Lek2_1.STUD2_1;
+package hw3.Curs1.Teach1_2.Lek2_1.STUD2_1;
 
 public class Stud2_1 {
     public int id;

@@ -1,9 +1,9 @@
-package Curs1.Teach1_1.Lek1_1.STUD1_1;
+package hw3.Curs1.Teach1_2.Lek2_1.STUD2_1;
 
-public class Stud1_1 {
+public class adhw2_1 {
     public int id;
     public static int counter = 1;
-    private Stud1_1(int id){
+    private adhw2_1(int id){
         this.id = id;
         counter ++;
     }
