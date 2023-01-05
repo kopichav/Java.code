@@ -6,8 +6,11 @@ import Curs1.Teach1_1.Lek1_1.STUD1_2.adhw1_2;
 import Curs1.Teach1_1.Lek1_1.STUD1_2.hw1_2;
 import Curs1.Teach1_1.Lek1_1.teach1_1;
 import Curs1.Teach1_2.Lek2_1.teach1_2;
+import hw5.Student1;
 
 public class Main {
+    Student1 student11 = new student1 ();
+    Student1 student12 = new student1 ();
      public static void main(String[] args) {
         int counter1 = adhw1_1.counter;
         int counter2 = hw1_1.counter;
