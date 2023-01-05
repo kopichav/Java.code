@@ -9,9 +9,12 @@ import Curs1.Teach1_2.Lek2_1.teach1_2;
 import hw5.Student1;
 
 public class Main {
+    static teach1_2 teach1_2 = new teach1_2 ();
+    static teach1_2 teach12 = new teach1_2 ();
     Student1 student11 = new student1 ();
     Student1 student12 = new student1 ();
-     public static void main(String[] args) {
+    in a=5;
+        public static void main(String[] args) {
         int counter1 = adhw1_1.counter;
         int counter2 = hw1_1.counter;
         int counter3 = Stud1_1.counter;
