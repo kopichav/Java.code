@@ -8,6 +8,7 @@ import Curs1.Teach1_1.Lek1_1.teach1_1;
 import Curs1.Teach1_2.Lek2_1.teach1_2;
 
 public class Main {
+    static teach1_2 teach1_2 = new teach1_2 ();
      public static void main(String[] args) {
         int counter1 = adhw1_1.counter;
         int counter2 = hw1_1.counter;
