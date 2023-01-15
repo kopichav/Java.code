@@ -13,7 +13,5 @@ public class Lection {
 
     }
 
-    public void Curse() {
-    int id;
-    }
+    c
 }
