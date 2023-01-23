@@ -20,6 +20,7 @@ public class Main {
          System.out.println("Home work of 2 student = " + counter5);
          System.out.println("How mach of teachers on Curse1= " + (counter7+counter8));
     }    */
+ //        Home work 6
           Curse curse1 = new Curse(1, "Animal");
           Lection lection1 = new Lection(1, "Lection1 of Curse1");
           Lection lection2 = new Lection(2, "Lection2 of Curse1");
@@ -30,6 +31,10 @@ public class Main {
           int counter9 = Lection.counter;
           System.out.println(lection6.id);
           System.out.println("Lections in Curse1-Animal = " + counter9);
+
+ //        Home work 7. Please see package hw7 class SwitchCase and hw6 class Curse
+
+
       }
 
 }
