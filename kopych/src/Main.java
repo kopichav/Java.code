@@ -1,5 +1,7 @@
 import hw6.Curse;
 import hw6.Lection;
+import hw9.p1_p2_p3.RepositoryCurses;
+import hw9.p1_p2_p3.RepositoryLections;
 
 public class Main {
       public static void main(String[] args) {
@@ -20,7 +22,7 @@ public class Main {
          System.out.println("Home work of 2 student = " + counter5);
          System.out.println("How mach of teachers on Curse1= " + (counter7+counter8));
     }    */
- //        Home work 6
+ /*       Home work 6
           Curse curse1 = new Curse(1, "Animal");
           Lection lection1 = new Lection(1, "Lection1 of Curse1");
           Lection lection2 = new Lection(2, "Lection2 of Curse1");
@@ -30,11 +32,22 @@ public class Main {
           Lection lection6 = new Lection(6, "Lection6 of Curse1");
           int counter9 = Lection.counter;
           System.out.println(lection6.id);
-          System.out.println("Lections in Curse1-Animal = " + counter9);
+          System.out.println("Lections in Curse1-Animal = " + counter9); */
 
  //        Home work 7. Please see package hw7 class SwitchCase and hw6 class Curse
-
-
+//         Home work 8. Please see package hw8
+//         Home work 9. Please see package hw9 p1_p2_p3, p5.
+//           p4:
+            System.out.println("Press key 1 for create new Course3 and 3 lections for Course");
+            int i = 0;
+            switch (i) {
+                  case 1:
+                        Curse curse3 = new Curse(4, "Finish");
+                        Lection lection1 = new Lection(3, "Lection1 of Curse4");
+                        Lection lection2 = new Lection(4, "Lection2 of Curse4");
+                        Lection lection3 = new Lection(5, "Lection3 of Curse4");
+                        System.out.println("New Course and 3 Lections for Course 3 created");
+                        break;
+            }
       }
-
 }
