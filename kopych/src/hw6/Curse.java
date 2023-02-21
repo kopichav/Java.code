@@ -8,16 +8,19 @@ public class Curse {
         this.id = id;
         counter++;
     }
+
     public Curse(int id, String name) {
     }
-    public Lection(int id, String name) {
+
+    public void Lection(int id, String name) {
     }
+
     public static void main(String[] args) {
 
         System.out.println("please input");
         Scanner scanner = new Scanner(System.in);
 
-       while (scanner.hasNext()) {
+        while (scanner.hasNext()) {
             final String stringFromScanner = scanner.nextLine();
             Lection lection3 = new Lection(3);
             System.out.println(lection3);
@@ -27,4 +30,5 @@ public class Curse {
 
         System.out.println(b);
 
+    }
 }
