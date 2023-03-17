@@ -4,7 +4,8 @@ public class Concol {
     public static void main(String[] args) {
 
         while (true) {
-            System.out println (i);
+            int i = 0;
+            System.out.println (i);
             i++;
         }
     }
