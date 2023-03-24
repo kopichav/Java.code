@@ -4,8 +4,8 @@ import hw6.Curse;
 
 public class CheckCorrect {
     public static void main(String[] args) {
-        System.out println("Enter key 1 for choose odd number");
-        System.out println("Enter key 2 for choose even number");
+        System.out.println("Enter key 1 for choose odd number");
+        System.out.println("Enter key 2 for choose even number");
             int i =0;
 
             switch (i) {
