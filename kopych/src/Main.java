@@ -1,7 +1,10 @@
+import hw11.p1.Role;
+import hw11.p3_p4.Lecture;
 import hw6.Curse;
 import hw6.Lection;
-import hw9.p1_p2_p3.RepositoryCurses;
-import hw9.p1_p2_p3.RepositoryLections;
+import hw9.p1_p2_p3.*;
+
+import static hw11.p3_p4.Lecture.lecture;
 
 public class Main {
       public static void main(String[] args) {
@@ -38,7 +41,7 @@ public class Main {
 //         Home work 8. Please see package hw8
 //         Home work 9. Please see package hw9 p1_p2_p3, p5.
 //           p4:
-            System.out.println("Press key 1 for create new Course3 and 3 lections for Course");
+/*            System.out.println("Press key 1 for create new Course3 and 3 lections for Course");
             int i = 0;
             switch (i) {
                   case 1:
@@ -48,6 +51,23 @@ public class Main {
                         Lection lection3 = new Lection(5, "Lection3 of Curse4");
                         System.out.println("New Course and 3 Lections for Course 3 created");
                         break;
+            }*/
+ //         Home work 11. Please see package hw11 p1
+ //            p2:
+            Role student = Role.STUDENT;
+            Role teacher = Role.TEACHER;
+            lecture = new Lecture();
+            //            p4:
+            System.out.println("For all information include Lection put case 2");
+            int i = 0;
+            switch (i) {
+                  case 2:
+                        System.out.println("All for student:");
+                        System.out.println(student);
+                        System.out.println("All for teachers:");
+                        System.out.println(teacher);
+                        System.out.println("All for lecture:");
+                        System.out.println(lecture);
             }
       }
 }
